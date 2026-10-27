@@ -13,6 +13,7 @@ import { ProductDetail } from './components/ProductDetail';
 import { CartProvider } from './hooks/useCart';
 import { products } from './data/catalog';
 import type { Category } from './types/catalog';
+import AdminApp from './admin/AdminApp';
 
 class ErrorBoundary extends Component<{ children: ReactNode }, { failed: boolean }> {
   state = { failed: false };
@@ -61,4 +62,7 @@ function Storefront() {
   </>;
 }
 
-export default function App() { return <ErrorBoundary><CartProvider><Storefront /></CartProvider></ErrorBoundary>; }
+export default function App() {
+  if (window.location.pathname.startsWith('/admin')) return <ErrorBoundary><AdminApp /></ErrorBoundary>;
+  return <ErrorBoundary><CartProvider><Storefront /></CartProvider></ErrorBoundary>;
+}
