@@ -1,0 +1,395 @@
+﻿{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-27T06:06:53.916Z",
+  "title": "Design System: ROOTS Concept Store",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "displayName": "Studio Paper",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.008 100)",
+          "oklch(26% 0.008 100)",
+          "oklch(38% 0.008 100)",
+          "oklch(49% 0.008 100)",
+          "oklch(61% 0.008 100)",
+          "oklch(72% 0.008 100)",
+          "oklch(84% 0.008 100)",
+          "oklch(95% 0.008 100)"
+        ],
+        "rampPurpose": "Synthesized preview ramp; does not add production color tokens."
+      },
+      "ink": {
+        "displayName": "Printing Ink",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.005 130)",
+          "oklch(26% 0.005 130)",
+          "oklch(38% 0.005 130)",
+          "oklch(49% 0.005 130)",
+          "oklch(61% 0.005 130)",
+          "oklch(72% 0.005 130)",
+          "oklch(84% 0.005 130)",
+          "oklch(95% 0.005 130)"
+        ],
+        "rampPurpose": "Synthesized preview ramp; does not add production color tokens."
+      },
+      "red": {
+        "displayName": "Vermilion",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15% 0.18 30)",
+          "oklch(26% 0.18 30)",
+          "oklch(38% 0.18 30)",
+          "oklch(49% 0.18 30)",
+          "oklch(61% 0.18 30)",
+          "oklch(72% 0.18 30)",
+          "oklch(84% 0.18 30)",
+          "oklch(95% 0.18 30)"
+        ],
+        "rampPurpose": "Synthesized preview ramp; does not add production color tokens."
+      },
+      "muted": {
+        "displayName": "Quiet Gray",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.01 110)",
+          "oklch(26% 0.01 110)",
+          "oklch(38% 0.01 110)",
+          "oklch(49% 0.01 110)",
+          "oklch(61% 0.01 110)",
+          "oklch(72% 0.01 110)",
+          "oklch(84% 0.01 110)",
+          "oklch(95% 0.01 110)"
+        ],
+        "rampPurpose": "Synthesized preview ramp; does not add production color tokens."
+      },
+      "line": {
+        "displayName": "Pencil Rule",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.012 105)",
+          "oklch(26% 0.012 105)",
+          "oklch(38% 0.012 105)",
+          "oklch(49% 0.012 105)",
+          "oklch(61% 0.012 105)",
+          "oklch(72% 0.012 105)",
+          "oklch(84% 0.012 105)",
+          "oklch(95% 0.012 105)"
+        ],
+        "rampPurpose": "Synthesized preview ramp; does not add production color tokens."
+      },
+      "catalog": {
+        "displayName": "Catalog Paper",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.008 100)",
+          "oklch(26% 0.008 100)",
+          "oklch(38% 0.008 100)",
+          "oklch(49% 0.008 100)",
+          "oklch(61% 0.008 100)",
+          "oklch(72% 0.008 100)",
+          "oklch(84% 0.008 100)",
+          "oklch(95% 0.008 100)"
+        ],
+        "rampPurpose": "Synthesized preview ramp; does not add production color tokens."
+      },
+      "garment": {
+        "displayName": "Garment Gray",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.015 105)",
+          "oklch(26% 0.015 105)",
+          "oklch(38% 0.015 105)",
+          "oklch(49% 0.015 105)",
+          "oklch(61% 0.015 105)",
+          "oklch(72% 0.015 105)",
+          "oklch(84% 0.015 105)",
+          "oklch(95% 0.015 105)"
+        ],
+        "rampPurpose": "Synthesized preview ramp; does not add production color tokens."
+      },
+      "world-dark": {
+        "displayName": "Graphic Dark",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.015 135)",
+          "oklch(26% 0.015 135)",
+          "oklch(38% 0.015 135)",
+          "oklch(49% 0.015 135)",
+          "oklch(61% 0.015 135)",
+          "oklch(72% 0.015 135)",
+          "oklch(84% 0.015 135)",
+          "oklch(95% 0.015 135)"
+        ],
+        "rampPurpose": "Synthesized preview ramp; does not add production color tokens."
+      },
+      "world-light": {
+        "displayName": "Graphic Light",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.025 120)",
+          "oklch(26% 0.025 120)",
+          "oklch(38% 0.025 120)",
+          "oklch(49% 0.025 120)",
+          "oklch(61% 0.025 120)",
+          "oklch(72% 0.025 120)",
+          "oklch(84% 0.025 120)",
+          "oklch(95% 0.025 120)"
+        ],
+        "rampPurpose": "Synthesized preview ramp; does not add production color tokens."
+      },
+      "primary-hover": {
+        "displayName": "Ink Hover",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.025 120)",
+          "oklch(26% 0.025 120)",
+          "oklch(38% 0.025 120)",
+          "oklch(49% 0.025 120)",
+          "oklch(61% 0.025 120)",
+          "oklch(72% 0.025 120)",
+          "oklch(84% 0.025 120)",
+          "oklch(95% 0.025 120)"
+        ],
+        "rampPurpose": "Synthesized preview ramp; does not add production color tokens."
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Hero Display",
+        "purpose": "Compressed Archivo hero, desktop base role; responsive overrides documented in DESIGN.md."
+      },
+      "headline": {
+        "displayName": "Catalog Headline",
+        "purpose": "Section hierarchy in Archivo."
+      },
+      "title": {
+        "displayName": "Product Title",
+        "purpose": "Compact Archivo names below image fields."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Manrope supporting prose; actual element sizes vary."
+      },
+      "label": {
+        "displayName": "Action Label",
+        "purpose": "Manrope button labels."
+      },
+      "wordmark": {
+        "displayName": "Typographic Wordmark",
+        "purpose": "CSS requests weight 950; installed Archivo advertises 100â€“900 and width 62%â€“125%. Not an authenticated original logo."
+      }
+    },
+    "shadows": [
+      {
+        "name": "editorial-garment",
+        "value": "drop-shadow(-18px 25px 30px #0004)",
+        "purpose": "Image filter on the large graphic-story garment; not a card shadow."
+      },
+      {
+        "name": "lookbook-garment",
+        "value": "drop-shadow(10px 20px 18px #0002)",
+        "purpose": "Image filter on the main lookbook garment."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(.23,1,.32,1)",
+        "purpose": "CSS transform and dialog feedback."
+      },
+      {
+        "name": "ease-in-out",
+        "value": "cubic-bezier(.77,0,.175,1)",
+        "purpose": "Declared source token; currently no consuming rule."
+      },
+      {
+        "name": "ease-drawer",
+        "value": "cubic-bezier(.32,.72,0,1)",
+        "purpose": "Bag entrance."
+      },
+      {
+        "name": "ui-color",
+        "value": "180ms ease",
+        "purpose": "Color and background feedback."
+      },
+      {
+        "name": "press",
+        "value": "120ms cubic-bezier(.23,1,.32,1)",
+        "purpose": "Active scale .98."
+      },
+      {
+        "name": "dialog-enter",
+        "value": "220ms cubic-bezier(.23,1,.32,1)",
+        "purpose": "Opacity and 12px rise via @starting-style."
+      },
+      {
+        "name": "drawer-enter",
+        "value": "280ms cubic-bezier(.32,.72,0,1)",
+        "purpose": "Right-side full-height bag entrance."
+      },
+      {
+        "name": "garment-hover",
+        "value": "450â€“600ms cubic-bezier(.23,1,.32,1)",
+        "purpose": "Fine-pointer garment transformations."
+      },
+      {
+        "name": "rail-scrub",
+        "value": "0.6",
+        "purpose": "GSAP scroll smoothing, desktop only."
+      },
+      {
+        "name": "graphic-track-scrub",
+        "value": "0.7",
+        "purpose": "GSAP horizontal passage, desktop only."
+      },
+      {
+        "name": "graphic-print-scrub",
+        "value": "1",
+        "purpose": "GSAP garment scale and rotation, desktop only."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "transition-duration:.01ms;animation:none;scroll-behavior:auto",
+        "purpose": "Disable scroll sequences and stack panels; intentional zoom remains."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tablet-start",
+        "value": "520px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "768px"
+      },
+      {
+        "name": "scroll-story-min",
+        "value": "769px"
+      },
+      {
+        "name": "compact-desktop-max",
+        "value": "1100px"
+      },
+      {
+        "name": "wide-desktop-min",
+        "value": "1600px"
+      }
+    ],
+    "provenance": {
+      "sourceFiles": [
+        "src/styles/global.css",
+        "src/components/ClothingRail.tsx",
+        "src/components/ScrollWorld.tsx",
+        "src/components/Modal.tsx",
+        "src/components/Garment.tsx",
+        "src/components/Shopping.tsx",
+        "src/components/Navigation.tsx",
+        "src/hooks/useCart.tsx",
+        "ASSETS.md"
+      ],
+      "image": "/assets/arkad-editorial-rail-v2.png",
+      "imageStatus": "AI-assisted editorial derivative of four user-supplied ARKAD references; transparent 2172 Ã— 724 sprite. Not original brand photography. See ASSETS.md.",
+      "brandStatus": "Typographic wordmark; not an authenticated original logo.",
+      "commerceStatus": "Local browser bag and requested size preferences only; actual prices, sizes, stock, shipping and policies pending."
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ink action with paper text and a directional arrow.",
+      "html": "<button class=\"ds-button ds-primary\">EXPLORAR LA COLECCIÃ“N <svg viewBox=\"0 0 24 24\" width=\"17\" height=\"17\" fill=\"none\" aria-hidden=\"true\"><path d=\"M6 18 18 6M6 6h12v12\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg></button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:space-between;gap:35px;min-height:53px;padding:17px 23px;font-family:'Manrope Variable',sans-serif;font-size:10px;font-weight:750;letter-spacing:.04em;border:1px solid transparent;border-radius:0;cursor:pointer;transition:color 180ms ease,background-color 180ms ease,transform 120ms cubic-bezier(.23,1,.32,1)}.ds-button:focus-visible{outline:2px solid var(--red,#c33529);outline-offset:5px}.ds-button:active{transform:scale(.98)}@media(prefers-reduced-motion:reduce){.ds-button{transition-duration:.01ms}}.ds-primary{background:var(--ink,#171816);color:var(--paper,#eeede8)}@media(hover:hover) and (pointer:fine){.ds-primary:hover{background:#35392e}}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary action with a square ink border.",
+      "html": "<button class=\"ds-button ds-outline\">CONSULTAR EN INSTAGRAM <svg viewBox=\"0 0 24 24\" width=\"17\" height=\"17\" fill=\"none\" aria-hidden=\"true\"><path d=\"M6 18 18 6M6 6h12v12\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg></button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:space-between;gap:35px;min-height:53px;padding:17px 23px;font-family:'Manrope Variable',sans-serif;font-size:10px;font-weight:750;letter-spacing:.04em;border:1px solid transparent;border-radius:0;cursor:pointer;transition:color 180ms ease,background-color 180ms ease,transform 120ms cubic-bezier(.23,1,.32,1)}.ds-button:focus-visible{outline:2px solid var(--red,#c33529);outline-offset:5px}.ds-button:active{transform:scale(.98)}@media(prefers-reduced-motion:reduce){.ds-button{transition-duration:.01ms}}.ds-outline{background:transparent;color:var(--ink,#171816);border-color:var(--ink,#171816)}@media(hover:hover) and (pointer:fine){.ds-outline:hover{background:#dfe1d6}}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "search-field",
+      "description": "Search text on a bottom rule with a red focused state.",
+      "html": "<label class=\"ds-search\"><span>BUSCAR</span><input type=\"search\" placeholder=\"Prenda, grÃ¡fico o colorâ€¦\" aria-label=\"Buscar por nombre, grÃ¡fico o color\"/></label>",
+      "css": ".ds-search{display:flex;align-items:center;gap:16px;border-bottom:1px solid #929682;padding-bottom:16px;color:var(--ink,#171816);font:650 9px 'Manrope Variable',sans-serif}.ds-search input{font:450 16px 'Manrope Variable',sans-serif;background:transparent;color:inherit;border:0;min-width:0;flex:1;outline:none;caret-color:var(--red,#c33529)}.ds-search:focus-within{border-color:var(--red,#c33529)}.ds-search input::placeholder{color:#65695b}"
+    },
+    {
+      "name": "Desktop Navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Quiet text navigation with an animated thin underline.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Ejemplo de navegaciÃ³n\"><a href=\"#shop\">SHOP</a><a href=\"#collections\">COLLECTIONS</a><a href=\"#about\">ABOUT</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:32px;min-height:82px;background:var(--paper,#eeede8);color:var(--ink,#171816);font-family:'Manrope Variable',sans-serif}.ds-nav a{position:relative;font-size:10px;font-weight:700;padding-block:16px;letter-spacing:.025em;color:inherit;text-decoration:none}.ds-nav a:after{content:'';position:absolute;bottom:8px;left:0;width:100%;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform 200ms cubic-bezier(.23,1,.32,1)}.ds-nav a:focus-visible{outline:2px solid var(--red,#c33529);outline-offset:5px}@media(hover:hover) and (pointer:fine){.ds-nav a:hover:after{transform:scaleX(1)}}@media(prefers-reduced-motion:reduce){.ds-nav a:after{transition-duration:.01ms}}"
+    },
+    {
+      "name": "Catalog Filter",
+      "kind": "chip",
+      "refersTo": "filter-tab",
+      "description": "Text tab with an underline rather than a filled pill.",
+      "html": "<div class=\"ds-tabs\" aria-label=\"Ejemplo de filtro\"><button class=\"ds-tab ds-selected\" aria-pressed=\"true\">TODAS</button><button class=\"ds-tab\" aria-pressed=\"false\">GRÃFICOS</button></div>",
+      "css": ".ds-tabs{display:flex;gap:24px}.ds-tab{position:relative;min-height:36px;border:0;border-radius:0;background:transparent;color:var(--muted,#62635d);font:450 10px 'Manrope Variable',sans-serif;cursor:pointer;transition:color 180ms ease,transform 120ms cubic-bezier(.23,1,.32,1)}.ds-selected{color:var(--ink,#171816);font-weight:750}.ds-selected:after{content:'';position:absolute;bottom:0;left:0;width:100%;height:1px;background:currentColor}.ds-tab:focus-visible{outline:2px solid var(--red,#c33529);outline-offset:5px}.ds-tab:active{transform:scale(.98)}"
+    },
+    {
+      "name": "Product Information",
+      "kind": "card",
+      "refersTo": "product-card",
+      "description": "Unboxed product metadata beneath the garment image; no invented specimen photography.",
+      "html": "<article class=\"ds-card\"><a href=\"#shop\" class=\"ds-card-title\">Star Tee <svg viewBox=\"0 0 24 24\" width=\"17\" height=\"17\" fill=\"none\" aria-hidden=\"true\"><path d=\"M6 18 18 6M6 6h12v12\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg></a><p>ARKAD Â· BorgoÃ±a</p><span>Precio por confirmar</span></article>",
+      "css": ".ds-card{max-width:320px;color:var(--ink,#171816);background:transparent;border:0;border-radius:0;font-family:'Manrope Variable',sans-serif}.ds-card-title{display:flex;align-items:center;justify-content:space-between;gap:12px;color:inherit;text-decoration:none;font-family:'Archivo Variable',sans-serif;font-size:16px;font-weight:650;letter-spacing:-.025em;word-spacing:.065em}.ds-card-title:focus-visible{outline:2px solid var(--red,#c33529);outline-offset:5px}.ds-card p{font-size:9px;color:var(--muted,#62635d);margin:6px 0 0}.ds-card>span{display:block;font-size:10px;color:#4e5049;margin-top:11px}@media(hover:hover) and (pointer:fine){.ds-card-title:hover svg{background:var(--ink,#171816);color:var(--paper,#eeede8)}}"
+    },
+    {
+      "name": "Circular Direction Link",
+      "kind": "button",
+      "refersTo": "circle-link",
+      "description": "Thin circular arrow, an exception to the square form language.",
+      "html": "<a class=\"ds-circle\" href=\"#shop\" aria-label=\"Explorar la colecciÃ³n\"><svg viewBox=\"0 0 24 24\" width=\"17\" height=\"17\" fill=\"none\" aria-hidden=\"true\"><path d=\"M6 18 18 6M6 6h12v12\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg></a>",
+      "css": ".ds-circle{width:67px;height:67px;border:1px solid #97998e;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;color:var(--ink,#171816);background:transparent;transition:background-color 180ms ease,transform 220ms cubic-bezier(.23,1,.32,1)}.ds-circle:focus-visible{outline:2px solid var(--red,#c33529);outline-offset:5px}.ds-circle:active{transform:scale(.98)}@media(hover:hover) and (pointer:fine){.ds-circle:hover{background:#dcddd3;transform:rotate(8deg)}}@media(prefers-reduced-motion:reduce){.ds-circle{transition-duration:.01ms}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Independent Streetwear Showroom",
+    "overview": "Premium streetwear is presented with the scale and restraint of an editorial spread: heavy compressed lettering, warm studio neutrals, a single red accent and photographic garment silhouettes. The physical clothing rail and graphic detail story are the implemented signature expressions of this world. Small, precise interface labels let the clothing carry visual complexity.\n\nThe confirmed direction comes from PRODUCT.md and the surface brief. This document captures the shipped code; it does not assert an original brand identity or verified commercial catalog. The header wordmark is a typographic treatment, not an authenticated original logo. Actual brand photographs and commercial facts remain pending.",
+    "keyCharacteristics": [
+      "Heavy variable sans display typography with compact line spacing.",
+      "Warm monochrome surfaces, vermilion emphasis and thin structural rules.",
+      "Unboxed garments, staggered catalog rhythm and large editorial compositions.",
+      "Scroll-driven desktop storytelling with a static, stacked mobile alternative.",
+      "Square controls, circular directional cues and visible keyboard focus."
+    ],
+    "rules": [
+      {
+        "name": "The Product Color Rule",
+        "body": "Keep interface colors within the established warm neutral and red world; let garment graphics provide the broader palette.",
+        "section": "colors"
+      },
+      {
+        "name": "The Editorial Hierarchy Rule",
+        "body": "Use Archivo for statements and product titles, Manrope for navigation, descriptions and controls. Preserve strong scale contrast and short display lines.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "**Do** retain the warm neutral and red palette with garment-led color.",
+      "**Do** preserve compressed Archivo statements and precise Manrope interface type.",
+      "**Do** keep square controls, thin rules, transparent garment silhouettes and clear focus states.",
+      "**Do** retain stacked mobile and reduced-motion alternatives to the desktop scroll story.",
+      "**Do** preserve editorial-image attribution and explicit pending commercial facts."
+    ],
+    "donts": [
+      "**Don't** present the typographic wordmark as an authenticated original logo.",
+      "**Don't** describe the derived garment sprite as original brand photography.",
+      "**Don't** invent prices, stock, material claims, launch dates or completed transactions.",
+      "**Don't** replace flat editorial surfaces with rounded, shadowed card stacks.",
+      "**Don't** enable the desktop scroll passages on mobile or for reduced-motion users."
+    ]
+  }
+}
+
+
